@@ -31,6 +31,10 @@ public class Calculator {
 		//TODO
 	}
 
+	public void sayHello() {
+		return "hello";
+	}
+
 	//    public static void main(String[] args) { // 传统代码测试
 	//        int a = 8;
 	//        int b = 2;

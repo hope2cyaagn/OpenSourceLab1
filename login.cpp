@@ -1,6 +1,3 @@
-#include "login.h"
-#include "ui_login.h"
-
 login::login(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::login)
@@ -9,7 +6,6 @@ login::login(QWidget *parent) :
 }
 
 login::~login() {
-    delete ui;
 }
 
 void login::setKernel(TCPKernel *kernel) {

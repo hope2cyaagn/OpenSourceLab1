@@ -14,7 +14,6 @@
 #include <sys/socket.h>
 #include <sys/epoll.h> //epoll()
 
-
 #define EPOLL_SIZE 2048 //Epoll最大事件数
 
 class TCPNet {
@@ -22,7 +21,7 @@ private:
     int m_srvSock;
     int m_epfd;     //创建epoll文件描述符
     epoll_event event;
-//    char buffer[BUF_SIZE];
+    int temp;
 public:
     std::list<int> m_cliList; //已连接的客户端socket列表
     TCPNet();
