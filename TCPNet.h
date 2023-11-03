@@ -7,8 +7,6 @@
 #include <sys/stat.h>
 #include <string.h> //memset()
 #include <fcntl.h> //fcntl()
-#include <errno.h>
-#include <list>
 #include <arpa/inet.h> //inet_pton()
 #include <sys/socket.h>
 #include <sys/epoll.h> //epoll()

@@ -11,6 +11,7 @@ login::~login() {
 
 void login::setKernel(TCPKernel *kernel) {
     m_pKernel = kernel;
+
 }
 
 void login::on_Button_login_clicked() {
@@ -19,6 +20,7 @@ void login::on_Button_login_clicked() {
     QString strPassword = ui->lineEdit_userPwd->text();
     //发送登录请求
     STRU_LOGIN_RQ loginRQ;
+    STRU_LOGIN_RQ loginRS;
     loginRQ.m_type = _default_protocol_login_rq;
     strlcpy(loginRQ.loginName,strUser.toStdString().c_str(),strUser.size() + 1);
     strlcpy(loginRQ.loginPassword,strPassword.toStdString().c_str(),strPassword.size() + 1);
