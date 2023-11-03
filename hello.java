@@ -32,7 +32,7 @@ public class Calculator {
 	}
 
 	public void sayHello() {
-		return "hello";
+		return "hello world";
 	}
 
 	//    public static void main(String[] args) { // 传统代码测试

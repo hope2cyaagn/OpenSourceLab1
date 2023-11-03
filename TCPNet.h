@@ -2,7 +2,6 @@
 #define CHATROOM_SERVER_TCPNET_H
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <netinet/in.h> //sockaddr_in
 #include <unistd.h> //close() 文件夹
 #include <sys/stat.h>

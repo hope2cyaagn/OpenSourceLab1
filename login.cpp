@@ -6,6 +6,7 @@ login::login(QWidget *parent) :
 }
 
 login::~login() {
+    temp ++;
 }
 
 void login::setKernel(TCPKernel *kernel) {
