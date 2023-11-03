@@ -6,8 +6,6 @@
 #include <string.h> //memset()
 #include <fcntl.h> //fcntl()
 #include <arpa/inet.h> //inet_pton()
-#include <sys/socket.h>
-#include <sys/epoll.h> //epoll()
 
 #define EPOLL_SIZE 2048 //Epoll最大事件数
 
