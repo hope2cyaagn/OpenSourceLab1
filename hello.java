@@ -21,6 +21,7 @@ public class Calculator {
 	public int div2(int x, int y) { //除法 做了异常判断
 		try {
 			int z = x / y;
+			z ++;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
