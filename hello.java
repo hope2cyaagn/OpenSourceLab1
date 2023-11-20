@@ -1,6 +1,6 @@
 
 // 类定义和main函数测试&#xff0c;这里main方法暂时取消注释
-public class Calculator {
+public class Calculator {//1
 
 	public int add(int x, int y) { //加法
 		return x + y;
